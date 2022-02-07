@@ -9,6 +9,13 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
+      resolve: `gatsby-source-drupal`,
+      options: {
+        baseUrl: `https://spectrumreachode3.prod.acquia-sites.com/`,
+        apiBase: `jsonapi`
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
