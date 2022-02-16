@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: `gatsby-source-drupal`,
       options: {
-        baseUrl: `https://spectrumreachode3.prod.acquia-sites.com/`,
+        baseUrl: `http://spectrumreachode3.prod.acquia-sites.com/`,
         apiBase: `jsonapi`
       }
     },
