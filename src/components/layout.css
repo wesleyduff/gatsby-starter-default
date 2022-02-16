@@ -1,3 +1,8 @@
+@import '~@kite/react-kite/dist/react-kite.css';
+
+@import '~@kite/react-kite/dist/kite-icons.min.css';
+
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
